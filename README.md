@@ -1,11 +1,20 @@
-//hello world "program"
+//hello world
 #include "stdafx.h"
-#include <iostream>
+#include <iostream>     
 using namespace std;
+
+void hello();
 
 int main()
 {
-  cout<<"Hello World"<<endl;
+  hello();
   system("pause);
   return 0;
 }
+
+void hello()
+{
+  cout << "Hello World!" <<endl;
+}
+
+
