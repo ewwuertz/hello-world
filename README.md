@@ -8,7 +8,7 @@ void hello();
 int main()
 {
   hello();
-  system("pause);
+  system("pause");
   return 0;
 }
 
