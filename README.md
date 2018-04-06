@@ -1,7 +1,11 @@
-# hello-world
-A hello world "program"
+//hello world "program"
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
 
-int main(){
-cout<<"Hello World"<<endl;
-return 0;
+int main()
+{
+  cout<<"Hello World"<<endl;
+  system("pause);
+  return 0;
 }
